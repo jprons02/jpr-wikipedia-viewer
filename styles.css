@@ -8,6 +8,7 @@ body {
     /*border: solid green 2px;*/
     margin-top: 20px;
     height: 100%;
+    padding: 50px;
   }  
 
   textarea:focus, input:focus{
@@ -33,6 +34,9 @@ body {
     font-weight: 700;
     font-size: 40px;
     height: 90px;  
+  }
+  #searchTerm {
+    margin-left: 10px;
   }
   
   #searchTerm:focus {

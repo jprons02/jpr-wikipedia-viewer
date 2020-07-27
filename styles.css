@@ -1,0 +1,174 @@
+body {
+    /*border: solid blue 3px;*/
+    background-image: url("https://blenderartists.org/uploads/default/original/4X/7/e/2/7e2d7bea4ac21388c4a96e1371f375c4ce00094b.jpg");
+    
+  }
+  
+  .container {
+    /*border: solid green 2px;*/
+    margin-top: 20px;
+    height: 100%;
+  }  
+
+  textarea:focus, input:focus{
+    outline: none;
+  }
+  
+  .form-control, #searchTerm, .searchTerm
+  {
+    font-family: 'Titillium Web', 'Raleway', sans-serif;
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    background-color: transparent;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  .searchTerm {
+    font-weight: 900;
+    font-size: 85px;
+    height: 130px;
+  }
+  .searchTermSmall {
+    font-weight: 700;
+    font-size: 40px;
+    height: 90px;  
+  }
+  
+  #searchTerm:focus {
+    color: #eaeaea;
+  }
+  #searchTerm::-webkit-input-placeholder
+  {
+    color: #dddddd;
+  }
+  #searchTerm::-moz-placeholder
+  {
+    color: #dddddd;
+  }
+  #searchTerm:-ms-input-placeholder {
+    color: #dddddd;
+  }
+  #searchTerm:-moz-placeholder {
+    color: #dddddd;
+  }
+  
+  p a {
+    color: lightgrey;
+  }
+  p a:hover, a:active, a:visited, a:focus {
+    text-decoration: none;
+    color: white;
+  }
+  
+  
+  
+  .grid {
+    position: relative;
+    /*border: solid 1px purple;*/
+  }
+  
+  .grid-item {
+    width: 31.4%;
+    margin: 10px;
+    /*border: solid red 3px;*/
+  }
+  
+  
+  
+  #newgrid a {
+    border: solid grey 1px;
+    width: 100%;
+    display: inline-block;
+    text-decoration: none;
+    background-color: lightgrey;
+    transition: background-color 1s ease, box-shadow .2s ease;
+    box-shadow: 6px 6px 10px black;
+  }
+  
+  #newgrid a:hover {
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid white;
+    box-shadow: 4px 4px 5px black;
+  }
+  
+  
+  
+  
+  
+  .titleStyle {
+    color: #141414;
+    font-weight: bold;
+    font-size: 170%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 4%;
+    padding-bottom: 10px;
+  }
+  
+  .summaryStyle {
+    color: #494949;
+    font-weight: 600;
+    font-size: 115%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 8.5%;
+  }
+  
+  
+  
+  
+  
+  @media only screen and (min-width : 320px) {
+    .grid-item {
+      width: 97%;
+      margin: 10px;
+    }
+    .searchTerm {
+      font-weight: 600;
+      font-size: 40px;
+      height: 60px;
+    }
+    .searchTermSmall {
+      font-weight: 500;
+      font-size: 25px;
+      height: 38px;  
+    }
+  }
+  
+  @media only screen and (min-width : 590px) {
+    .grid-item {
+      width: 45%;
+      margin: 10px;
+    }
+    .searchTerm {
+      font-weight: 600;
+      font-size: 50px;
+      height: 90px;
+    }
+    .searchTermSmall {
+      font-weight: 600;
+      font-size: 40px;
+      height: 70px;  
+    }
+  }
+  
+  @media only screen and (min-width : 995px) {
+      .grid-item {
+        width: 30%;
+        margin: 14px;
+    }
+    .searchTerm {
+      font-weight: 900;
+      font-size: 85px;
+      height: 130px;
+    }
+    .searchTermSmall {
+      font-weight: 700;
+      font-size: 40px;
+      height: 90px;  
+    }  
+  }
+  
+  
